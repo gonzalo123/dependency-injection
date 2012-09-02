@@ -1,0 +1,9 @@
+services:
+  app:
+    class:     App
+    arguments: [@Proxy]
+  proxy:
+    class:     Proxy
+    arguments: [@Curl]
+  curl:
+    class:     Curl

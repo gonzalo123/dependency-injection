@@ -1,0 +1,19 @@
+{
+    "authors":[
+        {
+            "name":"Gonzalo Ayuso",
+            "email":"gonzalo123@gmail.com",
+            "homepage":"http://gonzalo123.wordpress.com/"
+        }
+    ],
+    "require": {
+        "symfony/dependency-injection": "dev-master",
+        "symfony/yaml": "dev-master",
+        "symfony/config": "dev-master"
+    },
+    "autoload":{
+        "psr-0":{
+            "":"lib/"
+        }
+    }
+}
